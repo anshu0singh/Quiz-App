@@ -1,0 +1,126 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 70px;
+}
+
+.card {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.class-header h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.class-header span {
+    font-style: italic;
+}
+
+.score {
+    flex-basis: 33%;
+    text-align: left;
+}
+
+.score h5 {
+    margin: 0;
+}
+
+.question-remain {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.question-remain span {
+    font-style: italic;
+}
+
+.timer {
+    flex-basis: 33%;
+    text-align: right;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn i {
+    color: #333333;
+}
+.card1{
+    width: 400px;
+}
+.card0{
+    width: 500px;
+}
+li .card1{
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+}
+li .card1:hover{
+    border: 1px solid rgb(115, 184, 30);
+}
+
+/* .result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result p {
+    font-size: 18px;
+    margin-bottom: 5px;
+} */
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #b5b995;
+    padding: 20px;
+    border: 2px solid #cdbd23;
+    border-radius: 5px;
+}
+
+.result h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #929956;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.result p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}

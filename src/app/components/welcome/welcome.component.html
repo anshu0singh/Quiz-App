@@ -1,0 +1,17 @@
+<div class="container">
+    <h2 class="display-5">WELC0ME TO QUIZ APP</h2>
+    <p class="col-md-8">This Quiz Contains Total 9 Questions. Each Question Holds 10 Points</p>
+    <h4>RULES:</h4>
+        <ol>
+            <li>CORRECT QUESTIONS GIVES YOU 10 POINTS</li>
+            <li>INCORRECT QUESTIONS GIVES YOU -10 POINTS</li>
+            <li>YOU WILL HAVE 60 Sec TO ANSWER EACH QUESTION</li>
+            <li>REFERESHING THE PAGE WILL RESET THE QUIZ </li>
+        </ol>
+    <h2 style="font-family: cursive;text-align: center;">ALL THE  BEST <i class="fa fa-thumbs-up" aria-hidden="true"></i></h2>    
+    <div>
+        <label for="">ENTER YOUR NAME:</label>
+        <input #name type="text" class="form-control">
+    </div>
+<button mat-raised-button style="color: rgb(83, 79, 24);" routerLink="/question" (click)="startQuiz()">START THE QUIZ!!</button>
+</div>
